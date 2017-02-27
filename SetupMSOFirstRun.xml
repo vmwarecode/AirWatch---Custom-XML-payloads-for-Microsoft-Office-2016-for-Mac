@@ -107,4 +107,37 @@
     <key>kSubUIAppCompletedFirstRunSetup1507</key>
     <true />
 </dict>
-    
+
+### MICROSOFT AUTOUPDATE ###
+<dict>
+    <key>PayloadContent</key>
+    <dict>
+        <key>com.microsoft.autoupdate2</key>
+        <dict>
+            <key>Forced</key>
+            <array>
+                <dict>
+                    <key>mcx_preference_settings</key>
+                    <dict>
+                        <key>DisableInsiderCheckbox</key>
+                        <true/>
+                        <key>HowToCheck</key>
+                        <string>Automatic</string>
+                        <key>WhenToCheck</key>
+                        <integer>1</integer>
+                    </dict>
+                </dict>
+            </array>
+        </dict>
+    </dict>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadIdentifier</key>
+    <string>18C14A40-FFB1-4C0D-9598-FD41D4BE9247</string>
+    <key>PayloadType</key>
+    <string>com.apple.ManagedClient.preferences</string>
+    <key>PayloadUUID</key>
+    <string>18C14A40-FFB1-4C0D-9598-FD41D4BE9247</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
